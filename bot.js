@@ -27,4 +27,4 @@ const client = new Discord.Client();
 }); 
 
 
-client.login("NDcwMTEyMTIxNzQ5ODk3MjE2.DjRh4Q.kXEe1Em1-tZiSC_U6aGV-Mc1sqw")
+client.login(process.env.BOT_TOKEN);
